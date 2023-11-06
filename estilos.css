@@ -77,7 +77,7 @@ nav a:hover {
 }
 
 main {
-    margin: 0px 20px;
+    margin: 0px 50px;
 }
 
 #definicion {
@@ -145,4 +145,24 @@ footer {
 
 .link-info:hover .img-info {
     border-bottom: 3px solid white;
+}
+
+aside {
+    justify-content: flex-end;
+}
+
+.p-aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.p-aside > p {
+    max-width: 50%;
+}
+
+.img-aside {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
 }
