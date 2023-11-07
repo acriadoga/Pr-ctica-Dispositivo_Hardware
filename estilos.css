@@ -11,7 +11,7 @@ html, body {
 }
 
 h2 {
-    color: #181e35;
+    color: #a7b4fa;
     text-align: center;
     font-size: 40px;
     font-family: Anton;
@@ -126,6 +126,32 @@ footer {
     font-size: 15px;
 }
 
+.link-info:hover .img-info {
+    border-bottom: 3px solid white;
+}
+
+aside {
+    justify-content: flex-end;
+}
+
+.p-aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.p-aside > p {
+    max-width: 50%;
+}
+
+.img-aside {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
 .contenedor {
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +165,7 @@ footer {
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
     height: 450px;
-    width: 100px;
+    width: 100%;
     border-bottom: 3px solid #181e35;
 }
 
