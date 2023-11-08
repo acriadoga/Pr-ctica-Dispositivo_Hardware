@@ -60,6 +60,10 @@ h1 {
     font-size: 40px;
 }
 
+#a-h1:hover h1{
+    color: white;
+}
+
 nav > ul {
     list-style: none;
     display: flex;
